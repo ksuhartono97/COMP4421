@@ -159,7 +159,7 @@ def segment(img, img_name):
         img_final = cv2.dilate(img_final, np.ones((7,7), np.uint8))
 
     else:
-        img_final = cv2.dilate(img_final, np.ones((2,2), np.uint8))
+        img_final = cv2.dilate(img_final, np.ones((3,3), np.uint8))
 
     # plt.imshow(img_final, 'gray')
     # plt.show()
